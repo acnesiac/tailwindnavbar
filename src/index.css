@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap');
-body {
+h1 {
   margin: 0;
   font-family: 'Merriweather Sans', sans-serif;
   color: blueviolet;
