@@ -3,10 +3,17 @@
 @tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'
+);
 h1 {
-  margin: 0;
+  margin: auto;
   font-family: 'Merriweather Sans', sans-serif;
   color: blueviolet;
+  width: auto;
+  font-size: x-large;
+  padding-top: 10px;
+  padding-left: 10px;
+
 }
 
 code {
