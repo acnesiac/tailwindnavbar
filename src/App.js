@@ -7,6 +7,7 @@ import {
 import Navbar from "./components/NavBar";
 import UploadFile from "./components/UploadFile";
 import TableReact from "./components/TableReact";
+import Donut from "./components/Donut";
 function App() {
     const links = [{ id: 1 }];
     let [num, setNum] = useState(1);
@@ -28,11 +29,12 @@ function App() {
         <div>
             <h1>farmacias Zacatelco</h1>
             <div>
-            <Navbar></Navbar>
-            <Routes>
-                <Route path="/" element={<TableReact />} />
-                <Route path="/upload" element={<UploadFile />} />
-            </Routes>
+                <Navbar></Navbar>
+                <Routes>
+                    <Route path="/upload" element={<UploadFile />} />
+                    <Route path="/" element={<TableReact />} />
+                    <Route path="/donutgraph" element={<Donut />} />
+                </Routes>
             </div>
         </div>
     );

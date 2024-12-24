@@ -7,7 +7,7 @@ const UploadFile = () => {
       <div class="rounded-lg overflow-hidden md:max-w-xl">
         <form class="space-y-2" action="#" method="POST">
           <h1 className="text-3xl font-bold">
-            Hello world!
+            Upload your file!
           </h1>
           <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
             <label class='block text-lg/6 font-medium text-gray-900'>Valor</label>
