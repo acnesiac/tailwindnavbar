@@ -27,14 +27,16 @@ function App() {
     }
     return (
         <div>
-            <h1>farmacias Zacatelco</h1>
             <div>
                 <Navbar></Navbar>
+                <div class="p-4 sm:ml-64">
+
                 <Routes>
                     <Route path="/upload" element={<UploadFile />} />
                     <Route path="/" element={<TableReact />} />
                     <Route path="/donutgraph" element={<Donut />} />
                 </Routes>
+                </div>
             </div>
         </div>
     );
